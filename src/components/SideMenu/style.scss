@@ -1,0 +1,103 @@
+.menu {
+  height: 100vh!important;
+  .menu-button {
+    border-bottom: 1px solid #E5EAEF;
+  
+    button {
+      color: #404a5b;
+  
+      svg { 
+        font-size: 24pt 
+      }
+    }
+  }
+  
+  
+  
+  .menu-item {
+    border-radius: 0.5rem!important;
+    padding-top: 0.7rem!important;
+    padding-bottom: 0.7rem!important;
+    margin-bottom: 0.2rem!important;
+    
+    &:hover {
+      background-color: #EDF2FF !important;
+      color: #5D87FF !important;
+  
+      .menu-item-icon {
+        color: #5D87FF !important;
+      }
+    }
+  }
+  
+  .menu-item-icon {
+    color: #404a5b!important;  
+  }
+  
+  .menu-item-active {  
+    border-radius: 0.5rem!important;
+    padding-bottom: 0.7rem!important;
+    padding-top: 0.7rem!important;
+    margin-bottom: 0.2rem!important;
+    color: #FFFF !important;
+    background-color: #5D87FF !important;
+      
+    .menu-item-icon {
+      color: #FFFF !important;
+    }
+    
+    &:hover {    
+      color: #FFFF !important;
+      background-color: #5D87FF!important;
+  
+    }
+  }
+  
+  .menu-logo-container {
+    margin-bottom: 6;
+    margin: 1rem 0rem;  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 50px;
+    padding: 0rem 1rem;
+  
+    .menu-logo {
+      background-image: url(https://drive.google.com/u/0/uc?id=1714NbsB0Yva-cQk4bvMqdohgJp1PtOD6&export=download);
+      width: 50px;
+      height: 50px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      flex-grow: 1;
+    } 
+  
+    h1 {
+      flex-grow: 2;
+      align-self: center;
+    }
+  }
+  
+  
+  .menu-container {
+    height: 100vh!important;
+    border-right: 1px solid #E5EAEF!important;
+    z-index: 3!important;
+    background-color: #FFFFFF!important;
+    transition: 0.5s!important;
+  }
+  
+  .menu-button {
+    width: 100%!important;
+    height: 3rem!important;
+  }
+
+  .menu-overlay {
+    background-color: #7f7f7f;
+    opacity: 0.3;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    transition: 0.1s;
+  }
+}
